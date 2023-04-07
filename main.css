@@ -1,0 +1,101 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+   
+  header {
+    background-color: #336699;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .container{
+    text-align: center;
+
+  }
+ 
+  nav {
+    background-color: #eee;
+    padding: 10px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+  }
+  
+  
+   main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+   h2 {
+    margin-top: 0;
+  }
+  
+  
+  h3 {
+    color: rgb(10, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  h4 {
+    text-align: end;
+  }
+
+  .flash {
+    animation-name: flash;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+  }
+ 
+  @keyframes flash {
+  from {color: red;}
+  to {color: black;}
+  }
+  
+  img {
+    max-width: 1500px;
+    padding-left: 10px;
+  }
+
+  .oferta {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+  }

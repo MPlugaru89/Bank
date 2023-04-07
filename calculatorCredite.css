@@ -1,0 +1,119 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  header {
+    background-color: #336699;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  
+  
+  form input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+ 
+  #rezultate {
+    margin-top: 20px;
+    background-color: #eee;
+    padding: 5px;
+  }
+  
+  .btn-back {
+    padding: 5px 9px;
+    background-color: #fff;
+    border: 2px solid #336699;
+    color: #336699;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .btn-back:hover {
+    background-color: #336699;
+    color: #fff;
+  }
+  
+  nav {
+    background-color: #eee;
+    padding: 10px;
+    display: block;
+  }
+
+  ul {
+    display: block;
+    list-style-type: circle;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  li {
+  margin: 0;
+  padding: 0;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  }
+
+  a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  }
+
+  a:hover {
+  background-color: #ddd;
+  
+  }
